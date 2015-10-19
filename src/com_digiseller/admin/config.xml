@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <fieldset label="COM_DIGISELLER" name="digiseller">
+        <field default="0" filter="alnum" label="COM_DIGISELLER_FORM_LBL_SELLERID" maxlength="10" name="sellerid" size="10" type="text"/>
+        <field label="COM_DIGISELLER_FORM_LBL_LOGO" name="logo" type="checkbox" value="1"/>
+        <field label="COM_DIGISELLER_FORM_LBL_SEARCH" name="search" type="checkbox" value="1"/>
+        <field label="COM_DIGISELLER_FORM_LBL_CART" name="cart" type="checkbox" value="1"/>
+        <field label="COM_DIGISELLER_FORM_LBL_PURCHASES" name="purchases" type="checkbox" value="1"/>
+        <field label="COM_DIGISELLER_FORM_LBL_LANG" name="lang" type="checkbox" value="1"/>
+        <field label="COM_DIGISELLER_FORM_LBL_CAT" name="cat" type="list">
+            <option value="0">COM_DIGISELLER_FORM_LBL_CAT_0</option>
+            <option value="h">COM_DIGISELLER_FORM_LBL_CAT_H</option>
+            <option value="v">COM_DIGISELLER_FORM_LBL_CAT_V</option>
+        </field>
+        <field label="COM_DIGISELLER_FORM_LBL_MENU" name="menu" type="checkbox" value="1"/>
+    </fieldset>
+    <fieldset label="JCONFIG_PERMISSIONS_LABEL" name="permissions">
+        <field class="inputbox" component="com_digiseller" filter="rules" label="JCONFIG_PERMISSIONS_LABEL" name="rules" section="component" type="rules" validate="rules"/>
+    </fieldset>
+</config>

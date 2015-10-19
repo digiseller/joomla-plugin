@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension method="upgrade" type="component" version="3.2.0">
+	<name>COM_DIGISELLER</name>
+	<creationDate>October 2015</creationDate>
+	<author>Digiseller Team</author>
+	<authorEmail>admin@digiseller.ru</authorEmail>
+	<authorUrl>http://digiseller.ru</authorUrl>
+	<copyright>Copyright Info</copyright>
+	<license>License Info</license>
+	<version>0.1.0</version>
+	<description>COM_DIGISELLER_DESCRIPTION</description>
+
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>digiseller.php</filename>
+		<filename>controller.php</filename>
+		<folder>views</folder>
+		<folder>models</folder>
+	</files>
+	<administration>		
+		<files folder="admin">
+			<filename>index.html</filename>
+			<filename>config.xml</filename>
+		</files>
+		<languages folder="admin/language">
+			<language tag="en-GB">en-GB/en-GB.com_digiseller.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_digiseller.sys.ini</language>
+			<language tag="ru-RU">ru-RU/ru-RU.com_digiseller.ini</language>
+			<language tag="ru-RU">ru-RU/ru-RU.com_digiseller.sys.ini</language>
+		</languages>
+	</administration>
+</extension>
