@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension method="upgrade" type="component" version="3.2.0">
 	<name>COM_DIGISELLER</name>
+	<version>0.1.0</version>
 	<creationDate>October 2015</creationDate>
 	<author>Digiseller Team</author>
-	<authorEmail>admin@digiseller.ru</authorEmail>
+	<authorEmail>support@digiseller.ru</authorEmail>
 	<authorUrl>http://digiseller.ru</authorUrl>
-	<copyright>Copyright Info</copyright>
-	<license>License Info</license>
-	<version>0.1.0</version>
+	<copyright>Copyright (C) 2015 Digiseller - All rights reserved.</copyright>
+	<license>GNU/GPLv2 http://www.gnu.org/licenses/gpl-2.0.html</license>
 	<description>COM_DIGISELLER_DESCRIPTION</description>
-
 	<files folder="site">
 		<filename>index.html</filename>
 		<filename>digiseller.php</filename>
