@@ -1,0 +1,1 @@
+<?php header("Location: /administrator/index.php?option=com_config&view=component&component=com_digiseller"); die;

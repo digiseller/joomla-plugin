@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension method="upgrade" type="component" version="3.2.0">
 	<name>COM_DIGISELLER</name>
-	<version>0.1.0</version>
+	<version>0.2.0</version>
 	<creationDate>October 2015</creationDate>
 	<author>Digiseller Team</author>
 	<authorEmail>support@digiseller.ru</authorEmail>
@@ -17,9 +17,11 @@
 		<folder>models</folder>
 	</files>
 	<administration>		
+		<menu link='/index.php?option=com_digiseller'>COM_DIGISELLER_MENU</menu>
 		<files folder="admin">
 			<filename>index.html</filename>
 			<filename>config.xml</filename>
+			<filename>digiseller.php</filename>
 		</files>
 		<languages folder="admin/language">
 			<language tag="en-GB">en-GB/en-GB.com_digiseller.ini</language>
