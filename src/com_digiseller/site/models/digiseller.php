@@ -11,6 +11,7 @@
 defined('_JEXEC') or die('Restricted access');
 
 jimport('joomla.application.component.helper');
+jimport('joomla.application.component.modelitem');
 
 /**
  * Digiseller Model

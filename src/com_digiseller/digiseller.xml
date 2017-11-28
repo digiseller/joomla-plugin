@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension method="upgrade" type="component" version="3.2.0">
+<extension method="upgrade" type="component" version="2.5.0">
 	<name>COM_DIGISELLER</name>
-	<version>0.2.0</version>
+	<version>0.3.0</version>
 	<creationDate>October 2015</creationDate>
 	<author>Digiseller Team</author>
 	<authorEmail>support@digiseller.ru</authorEmail>
